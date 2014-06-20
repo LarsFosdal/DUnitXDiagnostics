@@ -5,7 +5,12 @@ program DUnitX_Diagnostics;
 {$R *.res}
 
 uses
-  System.SysUtils;
+  System.SysUtils,
+  DUnitX.AutoDetect.Console,
+  DUnitX.Loggers.Console,
+  DUnitX.Loggers.Xml.NUnit,
+  DUnitX.TestRunner,
+  DUnitX.TestFramework;
 
 begin
   try
