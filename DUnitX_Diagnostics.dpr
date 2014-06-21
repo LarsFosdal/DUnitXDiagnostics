@@ -10,7 +10,9 @@ uses
   DUnitX.Loggers.Console,
   DUnitX.Loggers.Xml.NUnit,
   DUnitX.TestRunner,
-  DUnitX.TestFramework;
+  DUnitX.TestFramework,
+  DUnitX_TestBaseClass in 'DUnitX_TestBaseClass.pas',
+  BaseClass in 'BaseClass.pas';
 
 begin
   try
